@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 import logging
 
 from django.conf import settings
-from django.http.response import Http404, HttpResponseServerError
+from django.http import Http404, HttpResponseServerError
 from django.views.debug import ExceptionReporter
 
 from django_ajax.response import JSONResponse

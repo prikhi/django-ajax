@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 
 import json
 
-from django.http.response import HttpResponseRedirectBase, HttpResponse
+from django.http import HttpResponseRedirectBase, HttpResponse
 from django.template.response import TemplateResponse
 from django.utils.encoding import force_text
 from django.db.models.base import ModelBase
